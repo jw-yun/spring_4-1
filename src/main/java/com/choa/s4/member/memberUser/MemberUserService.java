@@ -8,7 +8,7 @@ import com.choa.s4.member.MemberService;
 
 @Service
 public class MemberUserService implements MemberService {
-	
+
 	@Autowired
 	private MemberUserDAO memberUserDAO;
 	
@@ -29,7 +29,6 @@ public class MemberUserService implements MemberService {
 		// TODO Auto-generated method stub
 		return memberUserDAO.setMemberUpdate(memberDTO);
 	}
-	
 	
 	@Override
 	public MemberDTO getMemberLogin(MemberDTO memberDTO) throws Exception {
